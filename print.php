@@ -114,7 +114,7 @@ if (isset($_SESSION['successful_payments']) && is_array($_SESSION['successful_pa
         $balance = $row["balance"];
 
         $message = [
-            "secret" => "013f68c4bc65af3258e89bad88b67eb9ca85f338", // your API secret from (Tools -> API Keys) page
+            "secret" => "", // your API secret from (Tools -> API Keys) page
             "mode" => "devices",
             "device" => "00000000-0000-0000-8eaa-b10d44c3e4e3",
             "sim" => 1,
